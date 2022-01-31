@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "40267728-different-icons-coffee-brown-color-on-a-light-background.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

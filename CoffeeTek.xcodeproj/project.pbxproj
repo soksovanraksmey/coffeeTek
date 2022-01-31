@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0582F0ECFF12D1A0985F7803 /* Pods_CoffeeTek.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70EB27B093352F3005674EA5 /* Pods_CoffeeTek.framework */; };
+		AE1B01682671B19B0075B33D /* AnnotationPin.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1B01672671B19B0075B33D /* AnnotationPin.swift */; };
+		AE31000B262D607800B520F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE31000A262D607800B520F4 /* AppDelegate.swift */; };
+		AE31000F262D607800B520F4 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE31000E262D607800B520F4 /* HomeViewController.swift */; };
+		AE310012262D607800B520F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE310010262D607800B520F4 /* Main.storyboard */; };
+		AE310014262D607900B520F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE310013262D607900B520F4 /* Assets.xcassets */; };
+		AE310017262D607900B520F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE310015262D607900B520F4 /* LaunchScreen.storyboard */; };
+		AE310023262D7E9B00B520F4 /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE310022262D7E9B00B520F4 /* loginViewController.swift */; };
+		AE3C0E49262E91E900C17E4B /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3C0E48262E91E900C17E4B /* RegisterViewController.swift */; };
+		AE640218264528E200E79FD1 /* OrderTableViewCellController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE640216264528E200E79FD1 /* OrderTableViewCellController.swift */; };
+		AE640219264528E200E79FD1 /* OrderTableViewCellController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE640217264528E200E79FD1 /* OrderTableViewCellController.xib */; };
+		AE7452A8264A3C0E0009ED55 /* ContentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7452A7264A3C0E0009ED55 /* ContentController.swift */; };
+		AE75DC9D26566E1B006FC94E /* UpdatePFController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE75DC9C26566E1B006FC94E /* UpdatePFController.swift */; };
+		AE75DC9F26566E47006FC94E /* ChangeAvatarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE75DC9E26566E47006FC94E /* ChangeAvatarController.swift */; };
+		AE75DCA126566E66006FC94E /* ChangePwController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE75DCA026566E66006FC94E /* ChangePwController.swift */; };
+		AE75DCA526569681006FC94E /* AvatarCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE75DCA326569681006FC94E /* AvatarCollectionViewCell.swift */; };
+		AE75DCA626569681006FC94E /* AvatarCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE75DCA426569681006FC94E /* AvatarCollectionViewCell.xib */; };
+		AE7D45D72648DBE600E23F60 /* PreferenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7D45D62648DBE600E23F60 /* PreferenceController.swift */; };
+		AE9750072643A2B500D45ECE /* MapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9750062643A2B500D45ECE /* MapController.swift */; };
+		AE9750092643A2DD00D45ECE /* OrderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9750082643A2DD00D45ECE /* OrderController.swift */; };
+		AE97500B2643A2F600D45ECE /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE97500A2643A2F600D45ECE /* ProfileController.swift */; };
+		AEEC36862666962B00605EB8 /* ChangePasswordController .swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEC36852666962B00605EB8 /* ChangePasswordController .swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5381BEEB14C1BB9B4B10C006 /* Pods-CoffeeTek.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoffeeTek.release.xcconfig"; path = "Target Support Files/Pods-CoffeeTek/Pods-CoffeeTek.release.xcconfig"; sourceTree = "<group>"; };
+		70EB27B093352F3005674EA5 /* Pods_CoffeeTek.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoffeeTek.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE1B01672671B19B0075B33D /* AnnotationPin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnotationPin.swift; sourceTree = "<group>"; };
+		AE310007262D607800B520F4 /* CoffeeTek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeeTek.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE31000A262D607800B520F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AE31000E262D607800B520F4 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		AE310011262D607800B520F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE310013262D607900B520F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE310016262D607900B520F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AE310018262D607900B520F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE310022262D7E9B00B520F4 /* loginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
+		AE3C0E48262E91E900C17E4B /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		AE640216264528E200E79FD1 /* OrderTableViewCellController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTableViewCellController.swift; sourceTree = "<group>"; };
+		AE640217264528E200E79FD1 /* OrderTableViewCellController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OrderTableViewCellController.xib; sourceTree = "<group>"; };
+		AE7452A7264A3C0E0009ED55 /* ContentController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentController.swift; sourceTree = "<group>"; };
+		AE75DC9C26566E1B006FC94E /* UpdatePFController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdatePFController.swift; sourceTree = "<group>"; };
+		AE75DC9E26566E47006FC94E /* ChangeAvatarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeAvatarController.swift; sourceTree = "<group>"; };
+		AE75DCA026566E66006FC94E /* ChangePwController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePwController.swift; sourceTree = "<group>"; };
+		AE75DCA326569681006FC94E /* AvatarCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarCollectionViewCell.swift; sourceTree = "<group>"; };
+		AE75DCA426569681006FC94E /* AvatarCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AvatarCollectionViewCell.xib; sourceTree = "<group>"; };
+		AE7D45D62648DBE600E23F60 /* PreferenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceController.swift; sourceTree = "<group>"; };
+		AE9750062643A2B500D45ECE /* MapController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapController.swift; sourceTree = "<group>"; };
+		AE9750082643A2DD00D45ECE /* OrderController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderController.swift; sourceTree = "<group>"; };
+		AE97500A2643A2F600D45ECE /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
+		AEEC36852666962B00605EB8 /* ChangePasswordController .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ChangePasswordController .swift"; sourceTree = "<group>"; };
+		C0132772D6E48AC1D78A4D42 /* Pods-CoffeeTek.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoffeeTek.debug.xcconfig"; path = "Target Support Files/Pods-CoffeeTek/Pods-CoffeeTek.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE310004262D607800B520F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0582F0ECFF12D1A0985F7803 /* Pods_CoffeeTek.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		215F0595028ACF405D3C4C55 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				70EB27B093352F3005674EA5 /* Pods_CoffeeTek.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AE310008262D607800B520F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE310007262D607800B520F4 /* CoffeeTek.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE310009262D607800B520F4 /* CoffeeTek */ = {
+			isa = PBXGroup;
+			children = (
+				AE31000A262D607800B520F4 /* AppDelegate.swift */,
+				AE310010262D607800B520F4 /* Main.storyboard */,
+				AE5E84B926429EB500F5AEF8 /* HomeFlow */,
+				AE3C0E3E262E88B900C17E4B /* LoginFlow */,
+				AE310015262D607900B520F4 /* LaunchScreen.storyboard */,
+				AE310018262D607900B520F4 /* Info.plist */,
+			);
+			path = CoffeeTek;
+			sourceTree = "<group>";
+		};
+		AE31FFFE262D607800B520F4 = {
+			isa = PBXGroup;
+			children = (
+				AE310009262D607800B520F4 /* CoffeeTek */,
+				AE310008262D607800B520F4 /* Products */,
+				C6CF125169D7658B8CB3543C /* Pods */,
+				215F0595028ACF405D3C4C55 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AE3608C126501227000FA57B /* MenuList */ = {
+			isa = PBXGroup;
+			children = (
+				AE9750082643A2DD00D45ECE /* OrderController.swift */,
+				AE640216264528E200E79FD1 /* OrderTableViewCellController.swift */,
+				AE640217264528E200E79FD1 /* OrderTableViewCellController.xib */,
+			);
+			path = MenuList;
+			sourceTree = "<group>";
+		};
+		AE3608C226501274000FA57B /* GoogleMap */ = {
+			isa = PBXGroup;
+			children = (
+				AE7452A7264A3C0E0009ED55 /* ContentController.swift */,
+				AE9750062643A2B500D45ECE /* MapController.swift */,
+				AE1B01672671B19B0075B33D /* AnnotationPin.swift */,
+			);
+			name = GoogleMap;
+			sourceTree = "<group>";
+		};
+		AE3C0E3E262E88B900C17E4B /* LoginFlow */ = {
+			isa = PBXGroup;
+			children = (
+				AE310022262D7E9B00B520F4 /* loginViewController.swift */,
+				AE31000E262D607800B520F4 /* HomeViewController.swift */,
+				AE3C0E48262E91E900C17E4B /* RegisterViewController.swift */,
+				AE310013262D607900B520F4 /* Assets.xcassets */,
+			);
+			path = LoginFlow;
+			sourceTree = "<group>";
+		};
+		AE5E84B926429EB500F5AEF8 /* HomeFlow */ = {
+			isa = PBXGroup;
+			children = (
+				AE88FFCE26522BF800BBAA28 /* Profile */,
+				AE88FFCD26522BDD00BBAA28 /* Preference */,
+				AE3608C226501274000FA57B /* GoogleMap */,
+				AE3608C126501227000FA57B /* MenuList */,
+			);
+			path = HomeFlow;
+			sourceTree = "<group>";
+		};
+		AE75DCA226569639006FC94E /* Avatar */ = {
+			isa = PBXGroup;
+			children = (
+				AE75DC9E26566E47006FC94E /* ChangeAvatarController.swift */,
+				AE75DCA326569681006FC94E /* AvatarCollectionViewCell.swift */,
+				AE75DCA426569681006FC94E /* AvatarCollectionViewCell.xib */,
+				AE75DCA026566E66006FC94E /* ChangePwController.swift */,
+			);
+			path = Avatar;
+			sourceTree = "<group>";
+		};
+		AE88FFCD26522BDD00BBAA28 /* Preference */ = {
+			isa = PBXGroup;
+			children = (
+				AE7D45D62648DBE600E23F60 /* PreferenceController.swift */,
+			);
+			path = Preference;
+			sourceTree = "<group>";
+		};
+		AE88FFCE26522BF800BBAA28 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				AE97500A2643A2F600D45ECE /* ProfileController.swift */,
+				AE75DC9C26566E1B006FC94E /* UpdatePFController.swift */,
+				AEEC36852666962B00605EB8 /* ChangePasswordController .swift */,
+				AE75DCA226569639006FC94E /* Avatar */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		C6CF125169D7658B8CB3543C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C0132772D6E48AC1D78A4D42 /* Pods-CoffeeTek.debug.xcconfig */,
+				5381BEEB14C1BB9B4B10C006 /* Pods-CoffeeTek.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE310006262D607800B520F4 /* CoffeeTek */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE31001B262D607900B520F4 /* Build configuration list for PBXNativeTarget "CoffeeTek" */;
+			buildPhases = (
+				C80ED68927D43F8211D4B056 /* [CP] Check Pods Manifest.lock */,
+				AE310003262D607800B520F4 /* Sources */,
+				AE310004262D607800B520F4 /* Frameworks */,
+				AE310005262D607800B520F4 /* Resources */,
+				58D85BF47B6E686ACADA0671 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoffeeTek;
+			productName = CoffeeTek;
+			productReference = AE310007262D607800B520F4 /* CoffeeTek.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE31FFFF262D607800B520F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					AE310006262D607800B520F4 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = AE310002262D607800B520F4 /* Build configuration list for PBXProject "CoffeeTek" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE31FFFE262D607800B520F4;
+			productRefGroup = AE310008262D607800B520F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE310006262D607800B520F4 /* CoffeeTek */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE310005262D607800B520F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE640219264528E200E79FD1 /* OrderTableViewCellController.xib in Resources */,
+				AE75DCA626569681006FC94E /* AvatarCollectionViewCell.xib in Resources */,
+				AE310017262D607900B520F4 /* LaunchScreen.storyboard in Resources */,
+				AE310014262D607900B520F4 /* Assets.xcassets in Resources */,
+				AE310012262D607800B520F4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		58D85BF47B6E686ACADA0671 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CoffeeTek/Pods-CoffeeTek-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CoffeeTek/Pods-CoffeeTek-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CoffeeTek/Pods-CoffeeTek-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C80ED68927D43F8211D4B056 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CoffeeTek-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE310003262D607800B520F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE1B01682671B19B0075B33D /* AnnotationPin.swift in Sources */,
+				AE75DCA126566E66006FC94E /* ChangePwController.swift in Sources */,
+				AE75DC9F26566E47006FC94E /* ChangeAvatarController.swift in Sources */,
+				AE640218264528E200E79FD1 /* OrderTableViewCellController.swift in Sources */,
+				AE31000F262D607800B520F4 /* HomeViewController.swift in Sources */,
+				AE31000B262D607800B520F4 /* AppDelegate.swift in Sources */,
+				AE310023262D7E9B00B520F4 /* loginViewController.swift in Sources */,
+				AEEC36862666962B00605EB8 /* ChangePasswordController .swift in Sources */,
+				AE3C0E49262E91E900C17E4B /* RegisterViewController.swift in Sources */,
+				AE75DCA526569681006FC94E /* AvatarCollectionViewCell.swift in Sources */,
+				AE7D45D72648DBE600E23F60 /* PreferenceController.swift in Sources */,
+				AE9750072643A2B500D45ECE /* MapController.swift in Sources */,
+				AE9750092643A2DD00D45ECE /* OrderController.swift in Sources */,
+				AE97500B2643A2F600D45ECE /* ProfileController.swift in Sources */,
+				AE75DC9D26566E1B006FC94E /* UpdatePFController.swift in Sources */,
+				AE7452A8264A3C0E0009ED55 /* ContentController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AE310010262D607800B520F4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE310011262D607800B520F4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AE310015262D607900B520F4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE310016262D607900B520F4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE310019262D607900B520F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AE31001A262D607900B520F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE31001C262D607900B520F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0132772D6E48AC1D78A4D42 /* Pods-CoffeeTek.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XCPR7K9HB2;
+				INFOPLIST_FILE = CoffeeTek/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zed.CoffeeTek;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		AE31001D262D607900B520F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5381BEEB14C1BB9B4B10C006 /* Pods-CoffeeTek.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XCPR7K9HB2;
+				INFOPLIST_FILE = CoffeeTek/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zed.CoffeeTek;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE310002262D607800B520F4 /* Build configuration list for PBXProject "CoffeeTek" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE310019262D607900B520F4 /* Debug */,
+				AE31001A262D607900B520F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE31001B262D607900B520F4 /* Build configuration list for PBXNativeTarget "CoffeeTek" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE31001C262D607900B520F4 /* Debug */,
+				AE31001D262D607900B520F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE31FFFF262D607800B520F4 /* Project object */;
+}

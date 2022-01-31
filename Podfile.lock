@@ -1,0 +1,43 @@
+PODS:
+  - Alamofire (5.2.0)
+  - FloatingPanel (2.3.1)
+  - Kingfisher (6.0.0)
+  - PhoneNumberKit (3.3.0):
+    - PhoneNumberKit/PhoneNumberKitCore (= 3.3.0)
+    - PhoneNumberKit/UIKit (= 3.3.0)
+  - PhoneNumberKit/PhoneNumberKitCore (3.3.0)
+  - PhoneNumberKit/UIKit (3.3.0):
+    - PhoneNumberKit/PhoneNumberKitCore
+  - Realm (10.7.5):
+    - Realm/Headers (= 10.7.5)
+  - Realm/Headers (10.7.5)
+  - RealmSwift (10.7.5):
+    - Realm (= 10.7.5)
+
+DEPENDENCIES:
+  - Alamofire (= 5.2)
+  - FloatingPanel
+  - Kingfisher (= 6.0)
+  - PhoneNumberKit (= 3.3)
+  - RealmSwift
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - FloatingPanel
+    - Kingfisher
+    - PhoneNumberKit
+    - Realm
+    - RealmSwift
+
+SPEC CHECKSUMS:
+  Alamofire: c1ca147559e730bfb2182c8c7aafbdd90a867987
+  FloatingPanel: fb9fd997f369e1f5f350d8bab41527c8d6fe2e0d
+  Kingfisher: 13f6e68c928eb50439b5cb2ea75d6035018438ea
+  PhoneNumberKit: edd7d55c9bcf5b00cb7675c045b24c698a43c874
+  Realm: 06f5c67f87cb8c5f27b122218ce22e9a77314517
+  RealmSwift: b46535b52e69b9ed33912f0fcb3182ab0a5743ee
+
+PODFILE CHECKSUM: b6bcc3baccfadc03c0724b79c3cd846a8b6554d1
+
+COCOAPODS: 1.10.1
